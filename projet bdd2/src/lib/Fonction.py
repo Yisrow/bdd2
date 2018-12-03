@@ -16,3 +16,6 @@ def adresse():
 
 def lst_fichier(path):
     return os.listdir(path)
+
+def removed(file_adresse):
+    os.remove(file_adresse)
